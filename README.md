@@ -1,6 +1,6 @@
 # it’s a hot dog, and a not hot dog, it’s technology
 
-For the Hotdog-Not-Hotdog-Classifier, these steps were performed:
+For the Hotdog-Not-Hotdog-Classifier from the series Silicon Valley, these steps were performed:
 
 ## 1. Download images from ImageNet
 
