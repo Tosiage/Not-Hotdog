@@ -8,6 +8,7 @@ get_imgs.py downloads 13 synsets from ImageNet.
 
 **Hotdog Class**
 - the actual hotdog class
+- 1257 elements
   
 **Not-Hotdog Classes (food related)**
 - Cheeseburger: Similar fast food, but clearly distinguishable from a hotdog
@@ -24,3 +25,22 @@ get_imgs.py downloads 13 synsets from ImageNet.
 - Dinner Table: Table that food gets placed on
 - Cauldron: Different types of bowls
 - Wig: Something completely unrelated to food
+
+## 2. Preprocessing
+
+Following preprocessing steps were done in preproc.py:
+
+1. Select 1257 random images from Not-Hotdog classes
+2. Resizing
+3. Normalization
+5. Ensure Proper Image Shape
+6. Data Batching
+7. Label Encoding
+
+## 3. Model creation
+
+I used a pre-trained model in the first run.
+
+## 4. Transfer Learning
+
+Because my dataset is quite small, I used transfer learning on the pre-trained model.
