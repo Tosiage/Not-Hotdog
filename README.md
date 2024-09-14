@@ -22,7 +22,6 @@ get_imgs.py downloads 13 synsets from ImageNet.
 **Not-Hotdog Classes (not food related)**
 - Beer Bottle: Cylindrical shape but unrelated to food
 - Mixing Bowl: Kitchen-related but not food
-- Dinner Table: Table that food gets placed on
 - Cauldron: Different types of bowls
 - Wig: Something completely unrelated to food
 
@@ -31,16 +30,5 @@ get_imgs.py downloads 13 synsets from ImageNet.
 Following preprocessing steps were done in preproc.py:
 
 1. Select 1257 random images from Not-Hotdog classes
-2. Resizing
-3. Normalization
-5. Ensure Proper Image Shape
-6. Data Batching
-7. Label Encoding
 
-## 3. Model creation
 
-I used a pre-trained model in the first run.
-
-## 4. Transfer Learning
-
-Because my dataset is quite small, I used transfer learning on the pre-trained model.
